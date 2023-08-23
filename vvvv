@@ -1,87 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creme de Limpeza Facial para uma pele saudável.">
     <title>Creme de Limpeza Facial</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #ff0000;
-            color: #ffffff;
-            text-align: center;
-            padding: 20px;
-        }
-        header h1 {
-            font-size: 36px;
-        }
-        main {
-            text-align: center;
-            padding: 40px;
-        }
-        main img {
-            width: 300px;
-        }
-        .product-info {
-            background-color: #ffffff;
-            border: 2px solid #ff0000;
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .product-info h2 {
-            font-size: 24px;
-            color: #ff0000;
-        }
-        .product-info p {
-            font-size: 18px;
-        }
-        .buy-button {
-            background-color: #ff0000;
-            color: #ffffff;
-            font-size: 20px;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-        footer {
-            background-color: #ff0000;
-            color: #ffffff;
-            text-align: center;
-            padding: 10px;
-        }
+        /* Coloque seu estilo CSS personalizado aqui */
     </style>
 </head>
 <body>
     <header>
         <h1>Creme de Limpeza Facial</h1>
-        <p>Experimente a revolução em cuidados com a pele!</p>
+        <p>Para uma pele radiante e saudável</p>
     </header>
 
     <main>
-        <img src="creme-limpeza-facial.jpg" alt="Creme de Limpeza Facial">
-        <div class="product-info">
-            <h2>Benefícios do Produto:</h2>
-            <p>
-                - Limpa profundamente os poros<br>
-                - Hidrata e nutre a pele<br>
-                - Reduz a oleosidade<br>
-                - Deixa sua pele com uma sensação refrescante
-            </p>
-            <p>Preço: R$49,99</p>
-            <button class="buy-button">Comprar Agora</button>
-        </div>
+        <section class="product">
+            <img src="creme-limpeza-facial.jpg" alt="Creme de Limpeza Facial">
+            <div class="product-info">
+                <h2>Benefícios do Produto:</h2>
+                <ul>
+                    <li>Limpa profundamente os poros</li>
+                    <li>Hidrata e nutre a pele</li>
+                    <li>Reduz a oleosidade</li>
+                    <li>Deixa sua pele com uma sensação refrescante</li>
+                </ul>
+                <p>Preço: R$49,99</p>
+                <button class="buy-button">Comprar Agora</button>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>© 2023 Sua Empresa. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Sua Empresa. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
