@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creme de Limpeza Facial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        main {
+            text-align: center;
+            padding: 40px;
+        }
+        main img {
+            width: 300px;
+        }
+        .product-info {
+            background-color: #ffffff;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .product-info h2 {
+            font-size: 24px;
+            color: #ff0000;
+        }
+        .product-info p {
+            font-size: 18px;
+        }
+        .buy-button {
+            background-color: #ff0000;
+            color: #ffffff;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #ff0000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Creme de Limpeza Facial</h1>
+        <p>Experimente a revolução em cuidados com a pele!</p>
+    </header>
+
+    <main>
+        <img src="creme-limpeza-facial.jpg" alt="Creme de Limpeza Facial">
+        <div class="product-info">
+            <h2>Benefícios do Produto:</h2>
+            <p>
+                - Limpa profundamente os poros<br>
+                - Hidrata e nutre a pele<br>
+                - Reduz a oleosidade<br>
+                - Deixa sua pele com uma sensação refrescante
+            </p>
+            <p>Preço: R$49,99</p>
+            <button class="buy-button">Comprar Agora</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
